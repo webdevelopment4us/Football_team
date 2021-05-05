@@ -1,0 +1,51 @@
+body{
+    margin:20px; 
+    padding:1px;
+} 
+header{
+    background-color: #800080;
+    background-image: url('../images/flywheel.jpg');
+    background-size:100%;
+} 
+h1{
+    color:#ffffff;
+    font-size: 150%;
+    padding-top:20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+nav a{ 
+    display:inline-block;
+    width:15%;
+    height:100%;
+    background:rgba(255, 255, 255, 0.5);
+    margin:40px 45px;
+    padding: 10px 5px; 
+    text-align:center;
+    text-decoration: none;
+    color:#000000;
+    border-radius:5px;
+}
+.active{
+    background:#ffffff;
+    color:#00008b;
+    font-weight: bold;
+}
+.left{
+    float:left;
+    width:25%;
+    height:100vh; /*view-port sets the height of the whole page and you dont need to hard-code it*/
+    background: #800080;
+}
+.left img{
+    width:250px;
+    margin-top:20px;
+    margin-bottom:10px;
+    margin-left:25px;
+    border:2px solid #000000;
+}
+.right{
+    float: right;
+    width:70%;
+    margin-right:50px; 
+} 
